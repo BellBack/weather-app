@@ -1,0 +1,117 @@
+body {
+  font-family: 'Koulen', cursive;
+  font-family: 'Poppins', sans-serif;  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: hsl(152deg 8% 12%);
+  
+  /* hsl(152deg 8% 12%)
+    rgb(38, 52, 46);
+    hsl(152deg 24% 28%)
+
+    radial-gradient(
+    circle farthest-corner at 12.3% 19.3%,
+    rgb(85, 88, 218) 0%,
+    rgb(95, 209, 249) 100.2%
+  );
+  */
+  
+}
+.App video {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+}
+.weather {
+  padding-top: 50px;
+  box-sizing: border-box;
+  min-width: 350px;
+  margin: auto;
+  min-height: 500px;
+  border-radius: 15% 5%;
+  background-color: rgb(38, 52, 46);
+  color: white;
+  position: relative;
+}
+
+.weather_box {
+  width: 350px;
+  text-align: center;
+}
+.temp{
+  margin-top: 55px;
+  font-weight: 300;
+  font-size: 20px;
+}
+.cityName {
+  margin: 0;
+  font-weight: 300;
+  font-size: 35px;
+}
+.weather_info{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: -15px auto 0;
+}
+.text{
+  padding-left: 5px;
+}
+
+.form {
+  min-width: 350px;
+  min-height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: absolute;
+  bottom: 100px;
+  margin-top: 30px;
+}
+input {
+  width: 300px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  border: solid 1px transparent;
+  height: 40px;
+  border-radius: 5px;
+  outline: none;
+  font-size: 15px;
+  padding-left: 10px;
+}
+.loading {
+  width: 350px;
+  display: flex;
+  justify-content: center;
+  height: 200px;
+  align-items: center;
+}
+button {
+  width: 300px;
+  height: 40px;
+  background-color: hsl(152deg 24% 28%);
+  border: none;
+  outline: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: .5s;
+  transition: .3s;
+}
+button:hover {
+  background-color: rgb(47, 78, 64);
+  transform: translateY(-.35rem);
+}
+.error {
+  font-size: 25px;
+  font-weight: 300;
+  text-align: center;
+  border-radius: 25px;
+  margin-top: 80px;
+}
