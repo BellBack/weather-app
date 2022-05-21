@@ -6,18 +6,6 @@ body {
   height: 100vh;
   margin: 0;
   background-color: hsl(152deg 8% 12%);
-  
-  /* hsl(152deg 8% 12%)
-    rgb(38, 52, 46);
-    hsl(152deg 24% 28%)
-
-    radial-gradient(
-    circle farthest-corner at 12.3% 19.3%,
-    rgb(85, 88, 218) 0%,
-    rgb(95, 209, 249) 100.2%
-  );
-  */
-  
 }
 .App video {
   position: absolute;

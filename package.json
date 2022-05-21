@@ -1,8 +1,8 @@
 {
   "name": "weather-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/BellBack/weather-app",
-  "private": false,
+  "homepage": "https://bellback.github.io/weather-app/",
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.6",
@@ -21,13 +21,13 @@
     "web-vitals": "^1.1.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "prettify": "prettier --write ./src",
-    "predeploy": "react-scripts build",
-    "deploy": "gh-pages -d build"
+    "prettify": "prettier --write ./src"
   },
   "eslintConfig": {
     "extends": [
