@@ -1,5 +1,5 @@
 {  
-  "homepage": "https://bellback.github.io/weather-app/",
+  "homepage": "https://bellback.github.io/weather-app/public",
   "name": "weather-app",
   "version": "0.1.0",
   "private": true,
